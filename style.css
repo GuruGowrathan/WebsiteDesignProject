@@ -1,0 +1,118 @@
+/*Defines attributes for all h1 tags unless otherwise specified */
+h1{
+    font-weight: bold;
+}
+/*Defines attributes for all h2 tags unless otherwise specified */
+h2{
+    color:blue;
+}
+
+/*Defines attributes for all p tags unless otherwise specified */
+p{
+    max-width: 650px;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+/*Makes all list items bold and 24px */
+li{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/*Defines attributes for the table unless otherwise specified */
+table{
+    width: 50%;
+    text-align: center;
+    border: 3px solid black;
+}
+
+/*Makes all of the items in the list in its entirety, bold and 24px */
+.list{
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+/*Defines attributes about the header of a page */
+.header{
+    font-size: 32px;
+    font-family:Arial;
+    text-align: center;
+}
+
+/*Defines the size of "Back to top" text */
+.top{
+    font-size: 20px;
+}
+
+/*Makes all links to information 25px large */
+.info{
+    font-size: 25px;
+}
+
+/*Makes all links to images 25px large */
+.image{
+    font-size: 25px;
+}
+
+/*Defines the absolute position of the image, as well as the width and height */
+#memory-chip{
+    position: absolute; top: 179px; left: 900px;
+    width: 400px;
+    height: 215px;
+}
+
+/*Defines the absolute position of the image, as well as the width and height */
+#video{
+    position: absolute; top: 1128px; left: 780px;
+}
+
+/*Defines the absolute position of the image, as well as the width and height */
+#chart{
+    position: absolute; top: 1465px; left: 900px;
+    width: 400px;
+    height: 215px;
+}
+
+/*Defines attributes about the word "Chart" in the Chart*/
+#RAMROMChart{
+    font-size: 26px;
+    font-weight: bolder;
+    font-style: italic;
+}
+/*Defines the title font-size of RAM.html */
+#RAM{
+    font-size: 60px;
+}
+
+/*Defines the title font-size of ROM.html */
+#ROM{
+    font-size: 60px;
+}
+
+/*Defines the absolute position of the image, as well as the width and height */
+#CPU{
+    position: absolute; top: 700px; left: 780px;
+    width: 560px;
+    height: 400px;
+}
+
+/*Defines the width and height of the image */
+#RAM128GB{
+    width: 560px;
+    height: 400px;
+}
+
+/*Defines the absolute position of the image, as well as the width and height */
+#cartridge{
+    position: absolute; top: 180px; left: 900px;
+    width: 400px;
+    height: 215px;
+}
+
+/*Defines the width and height of the image */
+#BIOS{
+    width: 360px;
+    height: 300px;
+}
